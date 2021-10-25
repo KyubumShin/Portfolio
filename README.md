@@ -18,7 +18,7 @@
      * https://github.com/xuebinqin/U-2-Net
   3. MHP(Multi Human Parsing) : human parsing model
      * https://github.com/ZhaoJ9014/Multi-Human-Parsing  
-* 사용된 모델 구조
+* 내부 구조
 ![](./image/models.PNG)
 
 * 사용된 스택  
@@ -34,14 +34,14 @@
 * gitlab pipeline을 통한 U2net CI
 ## 5. 프로젝트를 진행하면서 어려웠던점
 * 데이터 관련 문제
-  * 문제 : 기존 stargan에서 학습시켰던 데이터는 얼굴이라는 어느정도 위치가 지정되어 있는 데이터셋 이었지만 fashion 카테고리에 존재하는 데이터들은 포즈, 옷의 패턴, 색등 이 같은 카테고리의 옷일지라도 정말 다양한 특징들을 보여주었기 때문에 데이터를 정제할 필요가 있었습니다.
+  * 문제 : 기존 stargan_V2에서 학습시켰던 데이터는 얼굴이라는 어느정도 위치가 지정되어 있는 데이터셋 이었지만 fashion 카테고리에 존재하는 데이터들은 포즈, 옷의 패턴, 색등 이 같은 카테고리의 옷일지라도 정말 다양한 특징들을 보여주었기 때문에 데이터를 정제할 필요가 있었습니다.
   * 해결방안 : 이 부분은 따로 detecting 하는 모델을 학습시키려고 시도하다가 시간과 학습할 vram 부족 등의 이유로 팀원 모두 손으로 3일동안 bbox 라벨링통해 각 도메인별 6000~7000장을 구했고, 라벨링 한 데이터를 U2net을 통한 학습 노이즈가 될 배경 제거 및, bbox 라벨링 한 부분을 crop해서 상의 부분만 학습시켰습니다.
 * output 문제(미해결)
   * 문제 : 처음 프로젝트에서 기대했던것은 색, 패턴은 일정한 상태에서 옷의 모양만 변하는 것이었는데 mapping network 에서 뽑아낸 style code와 같이 변경시켰을때 옷의 색까지 변해버려 완전히 다른옷이 되어버리는 문제가 존재했습니다.
   * 생각중인 해결방안 : Controllable Generation 을 이용한 noise 컨트롤로 색관련 Feature를 특정하는 방식(Unentangle) 이나 classifier Gradients 이용하여 noise간 거리를 측정해서 학습(entangle Feature)통해 해결할 수 있다고 생각되어집니다.
 ## 6. 결과 및 성과
 * output으로 나온 이미지의 외형변화를 확인 할 수 있었습니다.
-* StarGAN을 비롯한 GAN 관련 논문 및 강의를 보았고, GAN에 대한 기본지식을 배우고 성장할 수있는 기회가 되었습니다.
+* StarGAN, StarGAN_V2을 비롯한 GAN 관련 논문 및 강의를 보았고, GAN에 대한 기본지식을 배우고 성장할 수있는 기회가 되었습니다.
 * Docker image를 만들고 컨테이너를 돌려볼 수 있는 경험을 얻었습니다.
 * gitlab-ci를 가이드라인에 따라 작성해보고 pipeline을 실행 해 본 경험을 얻었습니다.
 ## 7. 아쉬웠던점
