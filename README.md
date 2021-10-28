@@ -14,7 +14,7 @@
 * 모델
   1. StarGAN v2 : multi domain Image transfer
      * https://github.com/clovaai/stargan-v2
-  2. U2net : human segment model
+  2. U-2-net : human segment model
      * https://github.com/xuebinqin/U-2-Net
   3. MHP(Multi Human Parsing) : human parsing model
      * https://github.com/ZhaoJ9014/Multi-Human-Parsing  
