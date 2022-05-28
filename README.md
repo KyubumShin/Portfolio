@@ -8,7 +8,7 @@
      * 데이터 Noise 제거를 위한 Remasking
      * opensource 라이브러리 사용을 위한 환경설정
 
-### 1. [OCR Data Centric Competition](https://github.com/KyubumShin/level2-data-annotation_cv-level2-cv-05)
+### 2. [OCR Data Centric Competition](https://github.com/KyubumShin/level2-data-annotation_cv-level2-cv-05)
    * 기간 : 2022.04.14 ~ 2022.04.21  
    * 개요 : 데이터 부분 만을 수정하여 OCR task 중 글자 검출 부분 모델 학습. 최종 순위 7위 / 19팀
    * 기여 부분
@@ -17,7 +17,7 @@
      * 오픈 데이터 확보 및 데이터의 타당성 결정
      * Augmentation 실험 설계  
 
-### 2. [재활용 쓰레기 Object Detection](https://github.com/KyubumShin/level2-object-detection-level2-cv-05)
+### 3. [재활용 쓰레기 Object Detection](https://github.com/KyubumShin/level2-object-detection-level2-cv-05)
    * 기간 : 2022.03.21 ~ 2022.04.07
    * 개요 : 쓰레기 분리수거를 위한 Object Detection Task 모델 구현. 최종 순위 4위 / 19팀
    * 기여한 부분 
@@ -26,7 +26,7 @@
      * Class Imbalance를 해결하기 위한 Oversampling 구현(OpenCV 이용)
      * 모델 실험 설계
 
-### 3. [Mask Classification](https://github.com/KyubumShin/level1-image-classification-level1-cv-13)
+### 4. [Mask Classification](https://github.com/KyubumShin/level1-image-classification-level1-cv-13)
    * 기간 : 2022.02.23 ~ 2022.03.03
    * 개요 : 마스크 착용 상태 분류 Classification Model 구현. 최종순위 5위 / 48팀
    * 기여한 부분
@@ -34,7 +34,7 @@
      * pytorch lightning과 timm을 이용한 Baseline 코드 작성
      * 모델 실험 설계
 
-### 4. [Programmers K-Digital-Training ai 데브 코스 최종 프로젝트](https://github.com/KyubumShin/Portfolio/blob/main/fashin_stargan/README.md)
+### 5. [Programmers K-Digital-Training ai 데브 코스 최종 프로젝트](https://github.com/KyubumShin/Portfolio/blob/main/fashin_stargan/README.md)
    * 기간 : 2021.8.15 ~ ~ 2021.10.17
    * 개요 : StarGAN을 이용한 옷 변환 모델 생성
    * 기여한 부분
