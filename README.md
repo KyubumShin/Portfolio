@@ -1,4 +1,13 @@
 ## 프로젝트 List
+### 1. [재활용 쓰레기 Segmentic Segmentation](https://github.com/KyubumShin/level2-semantic-segmentation-level2-cv-05)
+   * 기간 : 2022.04.25 ~ 2022.05.12
+   * 개요 : 쓰레기 분리수거를 위한 Object Detection Task 모델 구현. 최종 순위 1위 / 19팀
+   * 기여 부분
+     * Sota Model인 Mask2former를 task에 맞게 튜닝 및 학습
+     * 데이터 Cleansing
+     * 데이터 Noise 제거를 위한 Remasking
+     * opensource 라이브러리 사용을 위한 환경설정
+
 ### 1. [OCR Data Centric Competition](https://github.com/KyubumShin/level2-data-annotation_cv-level2-cv-05)
    * 기간 : 2022.04.14 ~ 2022.04.21  
    * 개요 : 데이터 부분 만을 수정하여 OCR task 중 글자 검출 부분 모델 학습. 최종 순위 7위 / 19팀
