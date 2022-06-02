@@ -10,7 +10,7 @@
 
 ### 2. [OCR Data Centric Competition](https://github.com/KyubumShin/level2-data-annotation_cv-level2-cv-05)
    * 기간 : 2022.04.14 ~ 2022.04.21  
-   * 개요 : 데이터 부분 만을 수정하여 OCR task 중 글자 검출 부분 모델 학습. 최종 순위 7위 / 19팀
+   * 개요 : 데이터 부분 만을 수정하여 OCR task 중 글자 검출 모델 학습. 최종 순위 7위 / 19팀
    * 기여 부분
      * 팀 내의 Data Guideline 작성
      * 자체 labeling 데이터 셋 검수 및 클랜징
