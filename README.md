@@ -1,9 +1,12 @@
 ## 프로젝트 List
-### 1. [Post OCR Parsing - 명함](https://github.com/KyubumShin/level2-semantic-segmentation-level2-cv-05)
+### 1. [Post OCR Parsing - 명함](https://github.com/boostcampaitech3/final-project-level3-cv-05)
    * 기간 : 2022.05.11 ~ 2022.06.09
    * 개요 : 명함 이미지에서 OCR로 나온 Text중 필요한 Key imfomation 추출하는 Task
    * 기여 부분
-     * 
+     * 모델 및 아키텍쳐 설계
+     * Feature 설계
+     * OCR 전처리
+
 ### 2. [재활용 쓰레기 Segmentic Segmentation](https://github.com/KyubumShin/level2-semantic-segmentation-level2-cv-05)
    * 기간 : 2022.04.25 ~ 2022.05.12
    * 개요 : 쓰레기 분리수거를 위한 Object Detection Task 모델 구현. 최종 순위 1위 / 19팀
