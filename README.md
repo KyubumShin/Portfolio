@@ -1,4 +1,7 @@
 ## 프로젝트 List
+다음 링크에 조금 더 자세한 경험들이 적혀있습니다.
+* [notion Link](https://lemon-price-7f8.notion.site/62a92832f7c54ee08f6964a746816bac)
+
 ### 1. [Post OCR Parsing - 명함](https://github.com/boostcampaitech3/final-project-level3-cv-05)
    * 기간 : 2022.05.11 ~ 2022.06.09
    * 개요 : 명함 이미지에서 OCR로 나온 Text중 필요한 Key imfomation 추출하는 Task
